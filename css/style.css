@@ -254,3 +254,7 @@ width: 100%;
 	padding: 20px;
 	font-size: 16px;
 }
+
+.close {
+    opacity: 0.5 !important;
+}
