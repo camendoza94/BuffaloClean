@@ -54,8 +54,8 @@ div.box {
 .mySlides {
     display: none;
     width: 100%;
-}
 
+}
 .w3-left, .w3-right, .w3-badge {
     cursor: pointer
 }
@@ -71,7 +71,8 @@ div.box {
     background-color: rgba(255, 255, 255, 0.5) !important;
     margin-right: 35px;
     margin-left: 400px;
-    margin-bottom: 45px;
+    margin-bottom: 60px;
+    font-weight: 200;
 }
 
 .w3-content {
@@ -182,10 +183,6 @@ div.box {
     margin: 0;
 	padding: 0;
 }
-body {
-	background: #ccc;
-	font-family: arial, verdana, tahoma;
-}
 
 /*Time to apply widths for accordian to work
 Width of image = 640px
@@ -257,4 +254,8 @@ width: 100%;
 
 .close {
     opacity: 0.5 !important;
+}
+
+.black-text {
+    color: black;
 }
