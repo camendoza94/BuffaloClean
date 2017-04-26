@@ -1,0 +1,50 @@
+dl {
+    border: 3px solid;
+    padding: 0.5em;
+}
+
+dt {
+    float: left;
+    width: 300px;
+    text-align: right;
+    color: black;
+}
+
+dt::after {
+    content: ":";
+}
+
+dd {
+    margin: 0 20px 0 110px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: square;
+}
+
+dt a {
+    text-decoration: underline;
+}
+
+#connect {
+    background-color: #84777f;
+}
+
+.footer-links {
+    background-color: #333333;
+}
+
+div.box {
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+}
+
+.rightpanel {
+    background: url(../img/imagen2.jpg) no-repeat center;
+}
+
+.leftpanel {
+    background: url(../img/imagen3.jpg) no-repeat center;
+}
