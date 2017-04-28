@@ -1,3 +1,53 @@
+
+.line1{
+color: #f5c21f;
+}
+.navbar-header {
+    float: left;
+    width: 50px;
+    margin-top: -24px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-default {
+    background-color: rgba(0, 0, 0, 0.68);
+    border-color: rgba(0, 0, 0, 0.31);
+}
+.col-lg-9 {
+    width: 100%;
+    color: #8d8d8d;
+}
+#container1 {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+    text-align: center;
+}
+.contacto {
+    padding: 5px;
+    text-align: center;
+    height: 98px;
+    background-color: rgba(86, 86, 121, 0.84);
+}
+#conect1 {
+
+}
+#connect2 {
+background-color: #ffe819;
+    height: 97px;
+    padding: 25px;
+    margin: auto;
+}
+
+
+
 dl {
     border: 3px solid;
     padding: 0.5em;
@@ -37,18 +87,24 @@ dt a {
 
 div.box {
     box-sizing: border-box;
+    height:500px;
     width: 50%;
     float: left;
 }
 
 .rightpanel {
     background: url(../img/imagen2.jpg) no-repeat center;
-    height: 100%;
-}
+    box-sizing: border-box;
+    height: 500px;
+    
+    }
 
 .leftpanel {
-    background: url(../img/imagen3.jpg) no-repeat center;
-    height: 100%;
+ background: url(../img/imagen3.jpg) no-repeat center;
+    box-sizing: border-box;
+    height: 500px;
+    
+    
 }
 
 .mySlides {
@@ -58,6 +114,8 @@ div.box {
 
 .w3-left, .w3-right, .w3-badge {
     cursor: pointer
+margin-top: -40%;
+   
 }
 
 .w3-badge {
@@ -140,11 +198,21 @@ div.box {
 }
 
 .w3-left {
-    float: left !important
+    float: left !important;
+margin-top: -40%;
+    /* height: 200px; */
+    font-size: 45px;
+    color: #f5c21f;
+
 }
 
 .w3-right {
-    float: right !important
+    float: right !important;
+margin-top: -40%;
+    /* height: 200px; */
+    font-size: 45px;
+    color: #f5c21f;
+
 }
 
 .w3-badge, .w3-tag {
@@ -234,7 +302,7 @@ default width = 800/5 = 160px;
 /*Lets apply hover effects now*/
 /*The LI hover style should override the UL hover style*/
 .accordian ul li:hover {
-    width: 80%;
+    width: 68%;
 }
 
 .accordian li img {
@@ -265,4 +333,17 @@ default width = 800/5 = 160px;
 
 .black-text {
     color: black;
+}
+
+.two-backgrounds {
+    background: url(../img/fondo-03.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.bottom-right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-bottom: 10%;
+    paffing-right: 10%;
 }
