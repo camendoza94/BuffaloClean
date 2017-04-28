@@ -277,7 +277,7 @@ default width = 800/5 = 160px;
 .accordian li {
     position: relative;
     display: block;
-    width: 20%;
+    width: 14%;
     float: left;
 
     border-left: 1px solid #888;
@@ -302,7 +302,7 @@ default width = 800/5 = 160px;
 /*Lets apply hover effects now*/
 /*The LI hover style should override the UL hover style*/
 .accordian ul li:hover {
-    width: 68%;
+    width: 50%;
 }
 
 .accordian li img {
@@ -346,4 +346,13 @@ default width = 800/5 = 160px;
     bottom: 0;
     padding-bottom: 10%;
     paffing-right: 10%;
+}
+
+.transparent-button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border-color: rgb(245, 194, 31);
+    cursor: pointer;
+    outline: none;
+    color: white;
 }
