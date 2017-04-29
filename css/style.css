@@ -1,52 +1,58 @@
 
-.line1{
-color: #f5c21f;
+.line1 {
+    color: #f5c21f;
 }
+
 .navbar-header {
     float: left;
     width: 50px;
     margin-top: -24px;
 }
 
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-nav > li > a {
     color: #fff;
 }
+
 .navbar-default {
     background-color: rgba(0, 0, 0, 0.68);
     border-color: rgba(0, 0, 0, 0.31);
 }
+
 .col-lg-9 {
     width: 100%;
     color: #8d8d8d;
 }
+
 #container1 {
     padding-right: 0px;
     padding-left: 0px;
     margin-right: auto;
     margin-left: auto;
 }
+
 .row {
     margin-right: -15px;
     margin-left: -15px;
     text-align: center;
 }
+
 .contacto {
     padding: 5px;
     text-align: center;
     height: 98px;
     background-color: rgba(86, 86, 121, 0.84);
 }
+
 #conect1 {
 
 }
+
 #connect2 {
-background-color: #ffe819;
+    background-color: #ffe819;
     height: 97px;
     padding: 25px;
     margin: auto;
 }
-
-
 
 dl {
     border: 3px solid;
@@ -87,7 +93,7 @@ dt a {
 
 div.box {
     box-sizing: border-box;
-    height:500px;
+    height: 500px;
     width: 50%;
     float: left;
 }
@@ -96,15 +102,14 @@ div.box {
     background: url(../img/imagen2.jpg) no-repeat center;
     box-sizing: border-box;
     height: 500px;
-    
-    }
+
+}
 
 .leftpanel {
- background: url(../img/imagen3.jpg) no-repeat center;
+    background: url(../img/imagen3.jpg) no-repeat center;
     box-sizing: border-box;
     height: 500px;
-    
-    
+
 }
 
 .mySlides {
@@ -113,9 +118,9 @@ div.box {
 }
 
 .w3-left, .w3-right, .w3-badge {
-    cursor: pointer
-margin-top: -40%;
-   
+    cursor: pointer;
+    margin-top: -40%;
+
 }
 
 .w3-badge {
@@ -199,7 +204,7 @@ margin-top: -40%;
 
 .w3-left {
     float: left !important;
-margin-top: -40%;
+    margin-top: -40%;
     /* height: 200px; */
     font-size: 45px;
     color: #f5c21f;
@@ -208,7 +213,7 @@ margin-top: -40%;
 
 .w3-right {
     float: right !important;
-margin-top: -40%;
+    margin-top: -40%;
     /* height: 200px; */
     font-size: 45px;
     color: #f5c21f;
@@ -355,4 +360,35 @@ default width = 800/5 = 160px;
     cursor: pointer;
     outline: none;
     color: white;
+}
+
+.black-background-trans {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.black-background {
+    background-color: black;
+    color: white;
+}
+
+.grey-background {
+    background-color: grey;
+    color: white;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.no-right-margin {
+    margin: 30px;
+    margin-right: 0;
+}
+
+.image-background {
+    background-image: url(../img/Commercial-Landscaping-Maintenance.jpg);
+    background-position: center;
+    background-color:  rgba(0,0,0,0.5);
+    background-size: contain, auto;
 }
