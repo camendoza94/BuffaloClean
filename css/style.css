@@ -24,8 +24,8 @@
 }
 
 #container1 {
-    padding-right: 0px;
-    padding-left: 0px;
+    padding-right: 0;
+    padding-left: 0;
     margin-right: auto;
     margin-left: auto;
 }
@@ -40,16 +40,16 @@
     padding: 5px;
     text-align: center;
     height: 98px;
-    background-color: rgba(86, 86, 121, 0.84);
-}
-
-#conect1 {
-
 }
 
 #connect2 {
-    background-color: #ffe819;
     height: 97px;
+    padding: 25px;
+    margin: auto;
+}
+
+#connect1 {
+    height: 300px;
     padding: 25px;
     margin: auto;
 }
@@ -88,7 +88,7 @@ dt a {
 }
 
 .footer-links {
-    background-color: #333333;
+    background-color: #d1d22b;
 }
 
 div.box {
@@ -101,14 +101,14 @@ div.box {
 .rightpanel {
     background: url(../img/imagen2.jpg) no-repeat center;
     box-sizing: border-box;
-    height: 500px;
+    height: 600px;
 
 }
 
 .leftpanel {
     background: url(../img/imagen3.jpg) no-repeat center;
     box-sizing: border-box;
-    height: 500px;
+    height: 600px;
 
 }
 
@@ -119,7 +119,6 @@ div.box {
 
 .w3-left, .w3-right, .w3-badge {
     cursor: pointer;
-    margin-top: -40%;
 
 }
 
@@ -204,7 +203,7 @@ div.box {
 
 .w3-left {
     float: left !important;
-    margin-top: -40%;
+    margin-top: -20%;
     /* height: 200px; */
     font-size: 45px;
     color: #f5c21f;
@@ -213,7 +212,7 @@ div.box {
 
 .w3-right {
     float: right !important;
-    margin-top: -40%;
+    margin-top: -20%;
     /* height: 200px; */
     font-size: 45px;
     color: #f5c21f;
@@ -279,10 +278,17 @@ default width = 800/5 = 160px;
     float: left;
 }
 
+/*A small hack to prevent flickering on some browsers*/
+.accordian ul {
+    width: 2000px;
+    /*This will give ample space to the last item to move
+    instead of falling down/flickering during hovers.*/
+}
+
 .accordian li {
     position: relative;
     display: block;
-    width: 14%;
+    width: 16.66%;
     float: left;
 
     border-left: 1px solid #888;
@@ -301,7 +307,7 @@ default width = 800/5 = 160px;
 
 /*Reduce with of un-hovered elements*/
 .accordian ul:hover li {
-    width: 5%;
+    width: 10%;
 }
 
 /*Lets apply hover effects now*/
@@ -350,12 +356,11 @@ default width = 800/5 = 160px;
     right: 0;
     bottom: 0;
     padding-bottom: 10%;
-    paffing-right: 10%;
+    padding-right: 10%;
 }
 
 .transparent-button {
-    background-color: Transparent;
-    background-repeat: no-repeat;
+    background: Transparent no-repeat;
     border-color: rgb(245, 194, 31);
     cursor: pointer;
     outline: none;
@@ -382,13 +387,20 @@ default width = 800/5 = 160px;
 }
 
 .no-right-margin {
-    margin: 30px;
-    margin-right: 0;
+    margin: 30px 0 30px 30px;
 }
 
 .image-background {
-    background-image: url(../img/Commercial-Landscaping-Maintenance.jpg);
-    background-position: center;
-    background-color:  rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5) url(../img/Commercial-Landscaping-Maintenance.jpg);
     background-size: contain, auto;
+}
+
+.cover {
+    object-fit: cover;
+    height: 700px;
+}
+
+.image-background-2 {
+    background: rgba(0, 0, 0, 0.5) url(../img/paainting.jpg);
+    background-size: cover, auto;
 }

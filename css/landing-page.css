@@ -22,7 +22,7 @@ h6 {
 }
 
 .topnav {
-    
+
     font-size: 14px;
     margin-top: 20px;
 }
@@ -38,7 +38,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0, 0, 0, 0.8);
 }
 
 .intro-message {
@@ -102,7 +102,7 @@ h6 {
 }
 
 .content-section-b {
-  
+
     border-top: 1px solid #ffe121;
     border-bottom: 1px solid #ffe121;
 }
@@ -167,7 +167,7 @@ h6 {
 }
 
 footer {
-    padding: 50px 0;
+    padding: 10px 0;
     background-color: #f8f8f8;
 }
 
