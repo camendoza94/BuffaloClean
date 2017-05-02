@@ -462,3 +462,8 @@ color: black;
 .align-divs {
     height: 70%;
 }
+
+.navbar-default .navbar-nav > li > a:hover, .list-inline > li >a:hover {
+    color: #f4c121;
+    text-decoration: none;
+}
