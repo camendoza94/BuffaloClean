@@ -3,7 +3,9 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
-
+.navbar-default .navbar-nav>li>a {
+    color:#f5c21f;
+}
 body,
 html {
     width: 100%;
@@ -22,15 +24,15 @@ h6 {
 }
 
 .topnav {
-    
+
     font-size: 14px;
     margin-top: 20px;
 }
 
 .lead {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
-    text-align: justify;
+   /* text-align: justify;*/
 }
 
 .intro-header {
@@ -38,12 +40,12 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0, 0, 0, 0.8);
 }
 
 .intro-message {
     position: relative;
-    padding-top: 10%;
+    padding-top: 0%;
     padding-bottom: 10%;
 }
 
@@ -95,6 +97,7 @@ h6 {
     float: left;
     width: 25%;
     text-align: center;
+    color: black;
 }
 
 .content-section-a {
@@ -102,7 +105,7 @@ h6 {
 }
 
 .content-section-b {
-  
+
     border-top: 1px solid #ffe121;
     border-bottom: 1px solid #ffe121;
 }
@@ -110,6 +113,7 @@ h6 {
 .section-heading {
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .section-heading-spacer {
@@ -166,7 +170,7 @@ h6 {
 }
 
 footer {
-    padding: 50px 0;
+    padding: 10px 0;
     background-color: #f8f8f8;
 }
 

@@ -37,7 +37,7 @@
 <body>
 
 <!-- Navigation -->
-<nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top topnav all-width" role="navigation">
     <div class="container topnav">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -48,8 +48,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand topnav" href="#" style="padding: 2px;"><img src="img/4 (1).png"
-                                                                               style="height: 100%; width: auto;"></a>
+            <a class="navbar-brand topnav" href="#" style="padding: 2px;">
+<img src="img/4 (1).png"  id="logo2" ></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -75,7 +75,7 @@
 </nav>
 
 <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog" style="width: 90%;">
+    <div class="modal-dialog" style="width: 100%;">
 
         <!-- Modal content-->
         <div class="modal-content">
@@ -88,14 +88,16 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="intro-message">
-                                    <img src="img/4.png" style="width: auto; height: 200px;">
+                                    <img src="img/4.png" style="width: 42%; height: 64%;">
                                     <br>
-                                    <h2>Nuestros servicios generales y de mantenimiento resolveran todas tus
-                                        necesidades.
+                                    <h2>
+<span id="int" style="
+    font-size: 61%;
+">Nuestros servicios generales y de mantenimiento resolveran todas tus
+                                        necesidades.<br>Llegamos a convertir tus espacios en lo que deseaste.</span>
                                     </h2>
-                                        <br>
-                                    <h3>
-                                        Llegamos a convertir tus espacios en lo que deseaste.</h3>
+                                    <br>
+       
                                     <ul class="list-inline intro-social-buttons">
                                         <li>
                                             <button data-dismiss="modal"
@@ -128,9 +130,9 @@
 <a name="carrousel"></a>
 <div class="content-section-a;">
     <div class="container1">
-        <div class="w3-content w3-display-container" style="max-width:100%; max-height:80%">
+        <div id="one" class="w3-content w3-display-container" style="max-width:100%; max-height:80%">
             <div class="w3-display-container mySlides">
-                <img src="img/imagen1.jpg" style="width:100%">
+                <img  src="img/imagen1.jpg" class="cover" style="width:100%"  >
                 <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
                     <b>Quiénes Somos</b>
                     <br>
@@ -138,25 +140,25 @@
                     para
                     superar tus expectativas y pasar de espacios descuidados, sucios o poco agradables a ambientes
                     limpios,
-                    estéticos y formidables. Nuestro trabajo hablará por sí solo. CONÓCENOS.
+                    estéticos y formidables. <br>Nuestro trabajo hablará por sí solo. CONÓCENOS.
                 </div>
             </div>
 
-            <div class="w3-display-container mySlides">
-                <img src="img/imagen2.jpg" style="width:100%">
-                <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+            <div id="to" class="w3-display-container mySlides">
+                <img  src="img/imagen2.jpg" class="cover" style="width:100%" onmouseover="myFunction(1)" >
+                <div  class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
                     <b>Quiénes Somos</b>
                     <br>
                     Bufallo clean, una empresa que ofrece servicios de limpieza, mantenimiento y paisajismo. Trabajamos
                     para
                     superar tus expectativas y pasar de espacios descuidados, sucios o poco agradables a ambientes
                     limpios,
-                    estéticos y formidables. Nuestro trabajo hablará por sí solo. CONÓCENOS.
+                    estéticos y formidables.<br> Nuestro trabajo hablará por sí solo. CONÓCENOS.
                 </div>
             </div>
 
-            <div class="w3-display-container mySlides">
-                <img src="img/imagen3.jpg" style="width:100%">
+            <div id="tre" class="w3-display-container mySlides">
+                <img src="img/imagen3.jpg" class="cover" style="width:100%">
                 <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
                     <b>Quiénes Somos</b>
                     <br>
@@ -164,11 +166,11 @@
                     para
                     superar tus expectativas y pasar de espacios descuidados, sucios o poco agradables a ambientes
                     limpios,
-                    estéticos y formidables. Nuestro trabajo hablará por sí solo. CONÓCENOS.
+                    estéticos y formidables.Nuestro trabajo hablará por sí solo. CONÓCENOS.
                 </div>
             </div>
             <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle"
-                 style="width:100%">
+                 style="width:100%" >
                 <div class="w3-left" onclick="plusDivs(-1)">&#10094;</div>
                 <div class="w3-right" onclick="plusDivs(1)">&#10095;</div>
                 <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
@@ -181,22 +183,21 @@
 <!-- /.content-section-a -->
 <div class="content-section-b two-backgrounds">
     <div class="container">
-        <hr class="section-heading-spacer">
         <div class="clearfix"></div>
-        <h2 class="section-heading black-text">Ciclo de Servicios</h2>
+        <h2 class="section-heading black-text">CICLO DE SERVICIOS</h2>
     </div>
 
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-sm-push-6 col-sm-6">
 
-                <p class="lead black-text" style="margin: 120px; margin-bottom: 0px;  margin-right: 0px;">
-                    Asesorarte para nosotros de vital importancia. Cumplimos un ciclo de trabajo que ha resultado
+                <p class="lead black-text" id="asesorate">
+                    Asesorarte para nosotros es de vital importancia. Cumplimos un ciclo de trabajo que ha resultado
                     exitoso
-                    con cada uno de nuestros clientes. TE LO PRESENTAMOS.
+                    con cada uno de nuestros clientes.<br> TE LO PRESENTAMOS.
                 </p>
             </div>
-            <div class="col-lg-5 col-sm-pull-6  col-sm-6" style="padding-left: 0px; padding-right: 0px ">
+            <div class="col-lg-5 col-sm-pull-6  col-sm-6" style="padding-left: 0; padding-right: 0 ">
                 <img class="img-responsive" src="img/2.png" alt="Efectividad de 99% en Buffalo Clean">
             </div>
         </div>
@@ -206,17 +207,15 @@
 </div>
 <!-- /.content-section-b -->
 <a name="services"></a>
-<div class="content-section-b leftpanel col-lg-6 col-sm-12">
-    <div class="col-lg-12 col-sm-12">
-        <hr class="section-heading-spacer">
+<div class="content-section-b leftpanel col-lg-6 col-sm-12 no-padding">
+    <div class="col-lg-12 col-sm-12 no-padding grey-background">
         <div class="clearfix"></div>
-        <h2 class="section-heading black-text">Limpieza</h2>
+        <h2 class="section-heading">LIMPIEZA</h2>
     </div>
-    <div class="col-lg-6 col-sm-12"></div>
-    <div class="col-lg-6 col-sm-12 w3-display-bottomright">
+    <div class="col-lg-8 col-sm-12 w3-display-bottomright align-divs">
         <div class="row">
-            <div class="col-lg-12 font">
-                <p class="lead black-text">
+            <div class="col-lg-12 font black-background-trans">
+                <p class="lead no-right-margin">
                     Nuestro sistema de Limpieza esta diseñado para los diferentes ambientes que lo requieran; Domestico,
                     Industrial, Empresarial , Hospitalario y Residencial. Para lograrlo contamos con los dispositivos y
                     herramientas de limpieza adecuados brindando un servicio eficiente y oportuno a nuestros clientes
@@ -230,17 +229,15 @@
     <!-- /.container -->
 
 </div>
-<div class="content-section-b rightpanel col-lg-6 col-sm-12">
-    <div class="col-lg-12 col-sm-12">
-        <hr class="section-heading-spacer">
+<div class="content-section-b rightpanel col-lg-6 col-sm-12 no-padding">
+    <div class="col-lg-12 col-sm-12 no-padding black-background">
         <div class="clearfix"></div>
-        <h2 class="section-heading black-text">Mantenimiento</h2>
+        <h2 class="section-heading">MANTENIMIENTO</h2>
     </div>
-    <div class="col-lg-6 col-sm-12"></div>
-    <div class="col-lg-6 col-sm-12 w3-display-bottomright">
+    <div class="col-lg-8 col-sm-12 w3-display-bottomright align-divs">
         <div class="row">
-            <div class="col-lg-12 font">
-                <p class="lead black-text">
+            <div class="col-lg-12 font black-background-trans">
+                <p class="lead no-right-margin">
                     Varios factores influyen en el cuidado de las estructuras de todo tipo de nivel, pero es el
                     Mantenimiento preventivo y correctivo quien contribuye a la mejora ideal de los requerimientos
                     ocasionados por el desgaste de materiales y la incidencia del ambiente.Por esto, en BUFALLO CLEAN
@@ -256,19 +253,18 @@
 
 </div>
 
-<div class="content-section-b">
+<div class="content-section-b image-background">
 
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <hr class="section-heading-spacer">
                 <div class="clearfix"></div>
-                <h2 class="section-heading">Paisajismo</h2>
+	                <h2 class="section-heading">PAISAJISMO</h2>
                 <p class="lead">
                     El Paisajismo en nuestros proyectos se caracteriza por mantener la armonía con el ambiente y el
                     paisaje
                     local, de tal forma que recree la belleza de la naturaleza mejorando así la tranquilidad de nuestros
-                    clientes con un ambiente de equilibrio para el ecosistema.
+                    clientes,<br> con un ambiente de equilibrio para el ecosistema.
                 </p>
             </div>
             <!-- We will make a simple accordian with hover effects
@@ -284,12 +280,20 @@
 <div class="content-section-b">
 
     <div class="container1">
-        <div class="row">
+        <div class="row all-width">
             <div class="accordian">
                 <ul>
                     <li>
                         <div class="image_title">
-                            <div>Paisajismo 1</div>
+                            <div>Concreto</div>
+                        </div>
+                        <div>
+                            <img height="570px" src="img/concrete-polished-floor-polished-concrete-floor-pics-decoration-ideas.jpg"/>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="image_title">
+                            <div>Paisajismo </div>
                         </div>
                         <div>
                             <img height="570px" src="img/imagen1.jpg"/>
@@ -297,50 +301,34 @@
                     </li>
                     <li>
                         <div class="image_title">
-                            <div>Paisajismo 2</div>
+                            <div>Granito</div>
                         </div>
                         <div>
-                            <img height="570px" src="img/imagen1.jpg"/>
+                            <img height="570px" src="img/granito.jpg"/>
                         </div>
                     </li>
                     <li>
                         <div class="image_title">
-                            <div>Paisajismo 3</div>
+                            <div>Antes/Despu&eacute;s</div>
                         </div>
                         <div>
-                            <img height="570px" src="img/imagen1.jpg"/>
+                            <img height="570px" src="img/brisbane-melbourne-polished-concrete-floors-ideas-and-design.jpg"/>
                         </div>
                     </li>
                     <li>
                         <div class="image_title">
-                            <div>Paisajismo 4</div>
+                            <div>Jard&iacute;n</div>
                         </div>
                         <div>
-                            <img height="570px" src="img/imagen1.jpg"/>
+                            <img height="570px" src="img/Jardin.jpg"/>
                         </div>
                     </li>
                     <li>
                         <div class="image_title">
-                            <div>Paisajismo 5</div>
+                            <div>Madera</div>
                         </div>
                         <div>
-                            <img height="570px" src="img/imagen1.jpg"/>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="image_title">
-                            <div>Paisajismo 6</div>
-                        </div>
-                        <div>
-                            <img height="570px" src="img/imagen1.jpg"/>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="image_title">
-                            <div>Paisajismo 7</div>
-                        </div>
-                        <div>
-                            <img height="570px" src="img/imagen1.jpg"/>
+                            <img height="570px" src="img/indu.jpg"/>
                         </div>
                     </li>
                 </ul>
@@ -348,52 +336,46 @@
         </div>
     </div>
 </div>
-<div id="connect1">
+<div class="content-section-b image-background-2">
+    <div id="connect1">
 
-    <div class="contacto">
-        <h2>Contacto</h2>
+        <div class="contacto">
+            <h2>Contacto</h2>
+        </div>
     </div>
-</div>
 
-<div id="connect2">
+    <div id="connect2">
 
-    <div class="container">
+        <div class="container">
 
-        <div class="row">
+            <div class="row">
 
-            <div class="col-lg-9">
-                <div class="banner-contact">
-                    <div class="network-name">
-                        <img src="img/003-location.svg" style="height: 20px; margin: 0 auto;"/>
-                    </div>
-                    <div class="network-name">
-                        <img src="img/002-mail.svg" style="height: 20px; margin: 0 auto;"/>
-                    </div>
-                    <div class="network-name">
-                        <img src="img/001-smartphone.svg" style="height: 20px; margin: 0 auto;"/>
-                    </div>
-                    <div class="network-name">
-                        <img src="img/001-smartphone.svg" style="height: 20px; margin: 0 auto;"/>
-                    </div>
-                    <div class="network-name">
-                        <span>Cartagena, Colombia</span>
-                    </div>
-                    <div class="network-name">
-                        <span>bufallo.clean@gmail.com</span>
-                    </div>
-                    <div class="network-name">
-                        <span>316 647 9074</span>
-                    </div>
-                    <div class="network-name">
-                        <span>318 475 6023</span>
+                <div class="col-lg-9">
+                    <div class="banner-contact black-text">
+                        <div class="network-name">
+                            <img src="img/003-location.svg" style="height: 20px; margin: 0 auto;"/><br>
+                       <span>Cartagena, Colombia</span>                        </div>
+
+                        <div class="network-name">
+                            <img src="img/002-mail.svg" style="height: 20px; margin: 0 auto;"/><br>
+                            <span>bufallo.clean@gmail.com</span>
+
+                        </div>
+                        <div class="network-name">
+                            <a href="tel://318 475 6023" style="color: black;">  <img src="img/001-smartphone.svg" style="height: 20px; margin: 0 auto;"/><br>
+<span>318 475 6023</span>   </a> 
+                        </div>
+                        <div class="network-name">
+                         <a href="tel://316 647 9074" style="color: black;">  <img src="img/001-smartphone.svg" style="height: 20px; margin: 0 auto;"/><br> <span>316 647 9074</span></a>
+                        </div>
+                      
                     </div>
                 </div>
             </div>
+
         </div>
-
+        <!-- /.container -->
     </div>
-    <!-- /.container -->
-
 </div>
 <!-- /.banner -->
 
@@ -405,15 +387,15 @@
             <div class="col-lg-12">
                 <ul class="list-inline">
                     <li>
-                        <a href="#">Home &nbsp; <span class="line1">/</span></a>
+                        <a href="#">Home  &nbsp;<span class="line1">/</span></a>
                     </li>
                     <li class="footer-menu-divider">&sdot;</li>
                     <li>
-                        <a href="#services">Servicios &nbsp; <span class="line1">/</span></a>
+                        <a href="#services">Servicios  &nbsp;<span class="line1">/</span></a>
                     </li>
                     <li class="footer-menu-divider">&sdot;</li>
                     <li>
-                        <a href="#gallery">Galería &nbsp; <span class="line1">/</span></a>
+                        <a href="#gallery">Galería  &nbsp;<span class="line1">/</span></a>
                     </li>
                     <li class="footer-menu-divider">&sdot;</li>
                     <li>
@@ -438,10 +420,6 @@
     $(window).load(function () {
         $('#myModal').modal('show');
     });
-
-
-
-
 
 
 </script>
